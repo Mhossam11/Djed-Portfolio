@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Dumbbell, Linkedin, Mail, Facebook } from 'lucide-react';
+import Image from 'next/image';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -32,7 +33,12 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
-              <Dumbbell className="w-8 h-8 mr-3 text-purple-400" />
+              <Image
+                src="/logo.png"
+                alt="DjedFit Logo"
+                width={26}   // same as w-12 (12 * 4px = 26px)
+                height={26}  // same as h-12
+              />
               <h3 className="text-2xl font-bold gradient-text">DjedFit</h3>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">

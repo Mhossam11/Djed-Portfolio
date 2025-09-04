@@ -72,7 +72,7 @@ export function Features() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto mb-8 rounded-full" />
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the comprehensive toolkit that makes Gym-Z the ultimate solution 
+            Discover the comprehensive toolkit that makes DjedFit the ultimate solution 
             for modern fitness management.
           </p>
         </motion.div>

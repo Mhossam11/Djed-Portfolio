@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Dumbbell, ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 
 export function Hero() {
   return (
@@ -25,8 +26,13 @@ export function Hero() {
           transition={{ duration: 0.8 }}
           className="flex items-center justify-center mb-6"
         >
-          <Dumbbell className="w-12 h-12 mr-4 text-[#8860e5]" />
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold gradient-text pb-1">
+        <Image
+          src="/logo.png"
+          alt="DjedFit Logo"
+          width={58}   // same as w-12 (12 * 4px = 58px)
+          height={58}  // same as h-12
+          className="mr-"
+        />          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold gradient-text pb-1">
             DjedFit
           </h1>
         </motion.div>
