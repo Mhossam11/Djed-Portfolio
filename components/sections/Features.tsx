@@ -96,7 +96,7 @@ export function Features() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 text-center text-sm leading-relaxed">
+                  <p className="text-gray-600 text-center text-sm leading-relaxed ">
                     {feature.description}
                   </p>
                 </CardContent>

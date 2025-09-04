@@ -25,8 +25,8 @@ export function About() {
             About <span className="gradient-text">DjedFit</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto mb-8 rounded-full" />
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Gym-Z revolutionizes fitness management by creating a unified platform that seamlessly 
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed text-justify">
+            DjedFit revolutionizes fitness management by creating a unified platform that seamlessly 
             connects coaches, clients, and gym facilities. Our comprehensive solution streamlines 
             nutrition planning, supplement management, and exercise tracking while empowering gyms 
             to optimize their personal trainer operations.
